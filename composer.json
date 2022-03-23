@@ -1,0 +1,36 @@
+{
+    "name": "moves/fillable-on-create",
+    "description": "",
+    "keywords": [],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nick Rupert",
+            "email": "nick@tyrannosaurustech.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0",
+        "illuminate/support": "^8.63"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "orchestra/testbench": "^6.21",
+        "illuminate/database": "^8.63",
+        "captainhook/captainhook": "^5.10",
+        "marcocesarato/php-conventional-changelog": "^1.12",
+        "moves/conventional-commits": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Moves\\FillableOnCreate\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "version": "1.6.2"
+}
